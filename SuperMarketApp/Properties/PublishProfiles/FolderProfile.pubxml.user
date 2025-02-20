@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\John\Publish</_PublishTargetUrl>
+    <History>True|2025-02-20T12:34:45.0045610Z||;True|2025-02-20T00:36:14.8674632-05:00||;True|2025-02-20T00:22:55.1535500-05:00||;True|2025-02-20T00:20:23.8225519-05:00||;True|2025-02-20T00:17:57.3548831-05:00||;True|2025-02-20T00:04:52.1984933-05:00||;False|2025-02-20T00:02:41.1868676-05:00||;False|2025-02-19T23:59:35.0675325-05:00||;False|2025-02-19T23:58:14.7279086-05:00||;False|2025-02-19T23:57:06.3925628-05:00||;False|2025-02-19T23:52:18.5377075-05:00||;True|2025-02-19T23:42:24.3081213-05:00||;True|2025-02-19T23:26:10.7429963-05:00||;True|2025-02-19T23:16:25.2771576-05:00||;True|2025-02-19T14:09:51.4251892-05:00||;</History>
+    <LastFailureDetails />
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="conexion">
+      <Value>data source=%28localdb%29\MSSQLLocalDB%3binitial catalog=SuperMarketDB%3bIntegrated Security=SSPI%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="SuperMarketApp.Data.SuperMarketContext">
+      <Value>data source=%28localdb%29\MSSQLLocalDB%3binitial catalog=SuperMarketDB%3bIntegrated Security=SSPI%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
